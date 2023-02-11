@@ -29,7 +29,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://kangreungkim.github.io/" # the base hostname & protocol for your site
 
 # Social (First three Required)
-repo: "https://github.com/vsoch/docsy-jekyll"
+repo: "https://github.com/kangreungkim/youngsun.github.io"
 github_user: "kangreungkim"
 github_repo: "youngsun.github.io"
 github_branch: "main"
@@ -58,7 +58,7 @@ version_params:
     - Previous
 
 # Should there be feedback buttons at the bottom of pages?
-feedback: false
+feedback: true
 
 # Link to a privacy policy in footer, uncomment and define if wanted
 # privacy: https://domain.com/privacy
