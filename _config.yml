@@ -14,25 +14,25 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Youngsun
-email: kangreung.kim@gmai.com
-author: K(ys);
+title: youngsun's
+email: kangreung.kim@gmail.com
+author: kim youngsun
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
 # Add your baseurl here (your repository) but DO NOT CHANGE THE LINE NUMBER without editing .circleci/circle_urls.sh
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/profile" # the subpath of your site, e.g. /blog
 
 # This is mostly for testing
-url: "https://kangreungkim.github.io/" # the base hostname & protocol for your site
+url: "https://kangreungkim.github.io" # the base hostname & protocol for your site
 
 # Social (First three Required)
-repo: "https://github.com/kangreungkim/youngsun.github.io"
+repo: "https://kangreungkim.github.io/youngsun.github.io"
 github_user: "kangreungkim"
 github_repo: "youngsun.github.io"
-github_branch: "main"
+github_branch: "master"
 
 # Optional
 twitter: vsoch

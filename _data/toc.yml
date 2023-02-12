@@ -1,25 +1,97 @@
-- title: Jeykll 설치
-  url: docs
+- title: OS
+  url: OS
   links:
-    - title: "Getting Started"
+    - title: Windows
       url: "docs/getting-started"
       children:
-        - title: Features
+        - title: Windows 10
           url: "docs/getting-started#getting-started"
-        - title: Development
+        - title: Windows 11
           url: "docs/getting-started#development"
-        - title: Customization
+        - title: Windows server
           url: "docs/getting-started#customization"
-    - title: Versioning
+    - title: Linux
       url: "docs/versioning"
-    - title: "About"
+      children:
+        - title: Ubuntu
+          url: "docs/getting-started#getting-started"
+        - title: Debian
+          url: "docs/getting-started#development"      
+    - title: "IOS"
       url: "about"
-    - title: "News"
+    - title: "AndRoid"
       url: "news"
-- title: "Extras"
+
+- title: "Cloud"
+  url: docs
+  links:
+    - title: Amazon 
+      url: "docs/getting-started"
+    - title: Google
+      url: "docs/versioning"
+    - title: Vultr
+      url: "about"
+    - title: Github
+      url: "news"
+      children:
+        - title: Jekyll
+          url: "docs/getting-started#getting-started"
+        - title: GitLab
+          url: "docs/getting-started#development"            
+
+- title: "Program Languages"
+  url: docs
+  links:
+    - title: c++ Builder
+      url: "docs/getting-started"
+    - title: Python
+      url: "docs/versioning"
+    - title: React Js
+      url: "about"    
+      children:
+        - title: TypeScript
+          url: "docs/getting-started#getting-started"
+        - title: NextJs
+          url: "docs/getting-started#development"         
+    - title: PHP
+      url: "news"
+    - title: VBScript
+      url: "news"
+
+- title: "business"
   url: "docs/extras"
   links:
-    - title: Quizzes
+    - title: 시스템트레이딩
       url: "docs/extras/example-quiz"
-    - title: Tags Page
+    - title: 선물/옵션 모의 시스템
       url: "tags"
+    - title: "블로그운영"    
+      url: "tags"        
+      children:
+        - title: iherb reseller
+          url: "docs/getting-started#getting-started"
+        - title: cupang reseller
+          url: "docs/getting-started#development"
+    - title: "경매"
+      url: "tags"      
+      children:
+        - title: 돈되는 상가
+          url: "docs/getting-started#getting-started"
+        - title: 전원주택
+          url: "docs/getting-started#development"
+    - title: "공공데이타"    
+      url: "tags"               
+
+- title: "Hobbies"
+  url: docs
+  links:
+    - title: 인테리어
+      url: "docs/getting-started"
+    - title: 청소/세차
+      url: "docs/versioning"
+    - title: 캠핑/여행
+      url: "about"    
+    - title: 자전거 MTB
+      url: "news"
+    - title: 맛집 favorites
+      url: "news"
